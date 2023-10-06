@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pixelate</title>
+  <style>
+
+    body {
+      background-color: lightblue;
+    }
+
+    .input1 {
+      display: grid;
+      justify-content: center;
+      padding-bottom: 2%;
+      padding-top: 2%;
+      padding-right: 5%;
+    }
+
+    .input2 {
+      display: grid;
+      justify-content: center;
+      padding-right: 5%;
+    }
+
+    input {
+      width: 150%;
+      padding: 10%;
+      border: 2px solid rgb(80, 80, 80);
+      border-radius: 10px;
+    }
+
+    .title {
+      display: grid;
+      justify-content: center;
+      text-align: center;
+      font-family: Arial;
+      font-size: 300%;
+    }
+
+    .drag-button {
+      padding: 5%;
+      font-family: Arial;
+      font-size: medium;
+      font-weight: bold;
+    }
+
+    .button-div {
+      display: grid;
+      justify-content: center;
+      margin-top: 5%;
+    }
+
+
+  </style>
+</head>
+<body>
+  <div class="title">Welcome to Pixelate, the crochet pattern generator!</div>
+  <div class="input1">
+    <input type="text" onkeydown: placeholder="Enter the number of stitches (columns)">
+  </div>
+  <div class="input2">
+    <input type="text" placeholder="Enter the number of rows">
+  </div>
+  <div class="button-div">
+  <button class="drag-button">Drag and drop .png here</button>
+  </div>
+
+  <script>
+  </script>
+</body>
+</html>
